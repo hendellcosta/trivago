@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <Start />
-      <div className="flex flex-col items-center justify-center px-">
+      <div className="flex flex-col items-center justify-center">
         <Popular />
         <Info />
       </div>

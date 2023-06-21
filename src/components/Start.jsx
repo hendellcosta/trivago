@@ -47,7 +47,7 @@ function Start() {
 
   return (
     <section className=''>
-        <div className='flex flex-row items-center divide-x-2 px-96'>
+        <div className='flex flex-row items-center divide-x-2 px-36'>
             <img src={logo} alt="Logo Trivago" className='w-52 pr-4'/>
             <span className='flex flex-col gap-2 pl-4'>
             <h1 className='font-bold text-2xl'>Ofertas dos seus sites de reserva favoritos</h1>
@@ -59,7 +59,7 @@ function Start() {
             <div className='flex flex-col justify-center items-center'>
             <div>
             <span className='flex flex-row gap-3'>
-                <button className='bg-blue-100 activate:bg-white active:text-blue-200 px-4 py-2 rounded-t-lg hover:underline hover:text-blue-600 cursor-pointer'>Todas as opções</button>
+                <button className='bg-white text-blue-700 font-bold px-4 py-2 rounded-t-lg cursor-default'>Todas as opções</button>
                 <button className='bg-blue-100 activate:bg-white active:text-blue-200 px-4 py-2 rounded-t-lg hover:underline hover:text-blue-600 cursor-pointer'>Hotel</button>
                 <button className='bg-blue-100 activate:bg-white active:text-blue-200 px-4 py-2 rounded-t-lg hover:underline hover:text-blue-600 cursor-pointer'>Moradia/Apartamento</button>
             </span>
